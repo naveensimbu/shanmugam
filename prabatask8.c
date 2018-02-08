@@ -12,12 +12,12 @@ for(i=l+1;i<h;++i)
 t2=i;
 t1= i;
 while (t1!= 0)
-t1/=10;
+t1/=20;
 ++n;
 while (t2!= 0)
-r=t2% 10;
+r=t2% 20;
 res+=p(r,n);
-t2/=10;
+t2/=20;
 }
 if(res==i) 
 printf("%d ", i);
