@@ -9,7 +9,7 @@ scanf("%d",&c);
 printf("Enter the Elements of array:\n");
 for(i=0;i<c;i++)
 {
-scanf("%d",&a[i]);
+scanf("%d",&a[j]);
 }
 for(i=0;i<c;i++)
 {
@@ -24,7 +24,7 @@ a[j]=b;
 printf("Sorting order of array is:\n");
 for(i=0;i<c;i++)
 {
-printf("%d\n",a[i]);
+printf("%d\n",a[j]);
 }
 getch();
 }
