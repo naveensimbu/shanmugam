@@ -15,11 +15,11 @@ void main()
   }
   if(count==2)
   {
-  printf("yes");
+  printf("No");
   }
   else
   {
-  printf("No");
+  printf("yes");
   }
   getch();
  } 
