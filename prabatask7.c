@@ -11,10 +11,10 @@ n=n/10;
 }
 if(w==s)
 {
-printf("armstrong no");
+printf("armstrong yes");
 }
 else
 {
-printf("not armstrong no");
+printf("yes armstrong yes");
 }
 }
