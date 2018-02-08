@@ -23,7 +23,7 @@ c[j]=a;
 }
 for(i=0;i<5;i++)
 {
-printf("\n sorted array element is %d",c[j]);
+printf("\n sorted array element is %d",c[i]);
 }
 for(i=0;i<5;i++)
 {
