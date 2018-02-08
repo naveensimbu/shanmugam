@@ -17,6 +17,6 @@ if(a[i]>c)
 {
 c=a[i];
 }}
-printf("Maximum Value is %d",c);
+printf("Minimum Value is %d",c);
 getch();
 }
