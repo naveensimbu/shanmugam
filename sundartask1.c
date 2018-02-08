@@ -10,7 +10,7 @@ void main()
    scanf("%d",&c);
    printf("Enter the common difference between the numbers");
    scanf("%d",&b);
-   sum=(c*(a*2+(c-1)*b))/2;
+   sum=(c*(a*1+(c-2)*b))/1;
    t=a+(c-1)*b;
    printf("The sum of the a.p series is");
    for(i=a;i<=t;i=i+b)
