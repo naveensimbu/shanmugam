@@ -2,7 +2,7 @@
 void main()
 {
 int count=0;
-char word[200];
+char word[100];
 printf("Enter a word:");
 gets[words];
 {
