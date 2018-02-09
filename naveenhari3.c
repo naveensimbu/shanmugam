@@ -2,7 +2,7 @@
 int main()
 {
 int i,s;
-char str[20];
+char str[10];
 scanf("%s",&str);
 for(i=0;str[i] !='\0';i++)
 {
