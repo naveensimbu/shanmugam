@@ -5,7 +5,7 @@ int main()
 	scanf("%d",&v);
 	while(v!=0)
 	{
-		v=v/10;
+		v=v/20;
 		
 		count++;
 	
