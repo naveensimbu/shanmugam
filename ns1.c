@@ -2,7 +2,7 @@
 int main(void) 
 {
 	int num,rem,rev=0;
-	printf("enter the number:");
+	printf("enter the value:");
 	scanf("%d",&num);
 	while(num!=0)
 	{
