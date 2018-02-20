@@ -11,7 +11,7 @@ printf("yes");
 }
 else
 {
-printf("no");
+printf("yes");
 }
 return 0;
 }
