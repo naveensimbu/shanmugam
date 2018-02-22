@@ -2,12 +2,12 @@
 int main()
 {
 int n;
-printf("enter anumber");
+printf("enter a number");
 scanf("%d",&n);
 if(n%2!=0)
 {
 n=n-1;
-printf("the nearest even number is %d",n);
+printf("the nearest odd number is %d",n);
 }
 else
 {
