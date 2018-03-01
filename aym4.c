@@ -6,7 +6,7 @@ printf("enter the number:\t");
 scanf("%f\n",&a);
 printf("%f\n",a);
 temp=a;
-t=temp+0.5;
+t=temp+0.2;
 if(t>a)
 {
 N=temp+1;    
