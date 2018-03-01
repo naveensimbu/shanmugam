@@ -1,23 +1,26 @@
-#include <stdio.h>
-#include<string.h>
-int main(void) {
-	char a[20],b[20];
-	int i,n,flag=0;
-	scanf("%s",a);
-	n=strlen(a);
-	for (i =n-1;i>= 0;i--)
-	  {
-		b[n - i - 1] = a[i];
-	  }
- 
-	 for (flag = 1, i = 0; i < n ; i++)
-	 {
-		 if (b[i] != a[i])
-		 flag = 0;
-	}
-	 if (flag == 1)
-	printf ("\nYes");
-	else
-	printf("\nNo");
-	return 0;
+
+#include<stdio.h>
+int main()
+{
+char a[100];
+int  n,i,count=0;
+scanf("%s",a);
+n=strlen(a);
+for(i=0;i<n;i++)
+{
+if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'||a[i]=='A'||a[i]=='E'||a[i]=='O'|a[i]=='U')
+{
+printf("yes vowels in it");
+break;
+{
+else
+{
+count++;
+}
+}
+if(cout!=0)
+{
+printf("no vowels in it );
+}
+return 0;
 }
