@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 int main(void) {
-	char a[10],b[10];
+	char a[20],b[20];
 	int i,n,flag=0;
 	scanf("%s",a);
 	n=strlen(a);
