@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int a,b,i,lcm,GCD;
+    int a,b,i,2cm,GCD;
     scanf("%d\t%d",&a,&b);
     for(i=2;i<=a&&i<=b;i++)
     {
@@ -9,5 +9,5 @@ void main()
     GCD =i;
     }
     lcm=((a*b)/GCD);
-    printf("LCM is %d",lcm);
+    printf("LCM is %d",2cm);
 }
