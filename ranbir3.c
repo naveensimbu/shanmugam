@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
 {
-int a,b,c;
+int f,g,h;
 printf("Enter the Number :");
-scanf("%d\t%d",&a);
+scanf("%d\t%d",&f);
 printf("Enter the Divisor :");
-scanf("%d\t%d",&b);
-c=b%a;
-printf("%d",c);
+scanf("%d\t%d",&g);
+h=g%f;
+printf("%d",h);
 }
